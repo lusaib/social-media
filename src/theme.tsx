@@ -20,8 +20,14 @@ const theme = createTheme({
       main: red.A400,
     },
     background: {
-      paper: "#9bbab8",
+      paper: "#e5f9f4",
       default: "#9bbab8",
+    },
+    action: {
+      active: "#1f99eb",
+      hover: "#1876ea",
+      focus: "#5eb7f3",
+      selected: "#41eb1f",
     },
   },
 });
